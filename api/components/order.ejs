@@ -1,0 +1,347 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	style="min-width: 100%;margin: 0;padding: 0;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;background-color: #d8dde4;width: 100% !important;">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<!--[if !mso]><!-->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!--<![endif]-->
+	<title></title>
+	<style>
+		.header {
+			border-bottom: 1px solid #d8dde4;
+			background-color: #fff;
+			font-weight: bold;
+			line-height: 100.0%;
+			vertical-align: middle;
+			border-radius: 3px 3px 0 0;
+		}
+
+		.logo {
+			outline: none;
+			border: 0;
+			text-decoration: none;
+			-ms-interpolation-mode: bicubic;
+			clear: both;
+			line-height: 100%;
+			max-width: 168px;
+			height: auto !important;
+		}
+
+		.table-col-header {
+			color: #383d42;
+			font-size: 14px;
+			border-bottom: 1px solid rgb(229, 229, 229);
+			vertical-align: middle;
+			padding: 5px;
+			text-align: left;
+		}
+
+		.table-col {
+			color: #3d3d3d;
+			font-size: 14px;
+			border-bottom: 1px solid rgb(229, 229, 229);
+			vertical-align: middle;
+			padding: 5px;
+			text-align: left;
+		}
+	</style>
+</head>
+
+<body>
+	<div style="background-color: rgb(247,247,247);margin: 0;padding: 70.0px 0;width: 100.0%;">
+		<table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
+			<tbody>
+				<tr>
+					<td align="center" valign="top">
+						<table border="0" cellpadding="0" cellspacing="0" width="600"
+							style="border: 1.0px solid rgb(222,222,222);border-radius: 3.0px;">
+							<tbody>
+								<tr>
+									<td align="center" valign="top">
+										<table border="0" cellpadding="0" cellspacing="0" width="100%" class="header">
+											<tbody>
+												<tr>
+													<td style="padding: 20px 0px;display: block; text-align:center">
+														<img src="<%= logo %>" width="130" height="30"
+															alt="<%= webName %>" class="logo" />
+													</td>
+												</tr>
+											</tbody>
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td align="center" valign="top">
+										<table border="0" cellpadding="0" cellspacing="0" width="600">
+											<tbody>
+												<tr>
+													<td valign="top" style="background-color: rgb(255,255,255);">
+														<table border="0" cellpadding="20" cellspacing="0" width="100%">
+															<tbody>
+																<tr>
+																	<td valign="top" style="padding: 32px 48px 32px;">
+																		<div
+																			style="color: rgb(99,99,99);font-size: 14.0px;line-height: 150.0%;text-align: left;">
+																			<h1
+																				style="font-size: 24px;font-weight: 700;line-height: 100.0%;margin: 0;text-align: center;color:#383d42;">
+																				<%= text.thankYouMessage %>
+																			</h1>
+																			<p
+																				style="margin: 0 0 4px; padding: 10px 0 45px 0; color: #3d3d3d; text-align: center;">
+																			</p>
+																			<table cellspacing="0" cellpadding="0"
+																				border="0"
+																				style="width: 100.0%;vertical-align: top;margin-bottom: 40.0px;padding: 0;">
+																				<tbody>
+																					<tr>
+																						<td valign="top" width="50%"
+																							style="text-align: left;">
+
+																							<h6 class=""
+																								style="margin: 0; font-size: 16px; margin-bottom: 5px; color:#3f9e8b;">
+																								<%= text.billTo %>
+																							</h6>
+																							<div class="">
+																								<h6 class=""
+																									style="margin: 0; font-size: 14px; color: #383d42;">
+																									<%= userName %>
+																								</h6>
+																								<h6
+																									style="margin: 0; font-size: 14px; font-weight: 400; color: #3d3d3d">
+																									<%= userAddress %>
+																								</h6>
+																								<h6
+																									style="margin: 0; font-size: 14px; font-weight: 400; color: #3d3d3d">
+																									<%= userMobile %>
+																								</h6>
+																								<h6
+																									style="margin: 0; font-size: 14px; font-weight: 400; color: #3d3d3d">
+																									<%= userEmail %>
+																								</h6>
+
+																							</div>
+
+																						</td>
+																						<td valign="top" width="50%"
+																							style="text-align: left;padding-left: 10%;">
+																							<h6 class=""
+																								style="margin: 0; font-size: 16px; margin-bottom: 5px; color:#3f9e8b">
+																								<%= text.orderDetail %>
+																							</h6>
+																							<div class="order-details">
+																								<h6 class=""
+																									style="margin: 0; font-size: 14px; color: #888888">
+																									<%= text.orderNumber
+																										%>: <span
+																											style="color:#000;">#
+																											<%= orderId
+																												%>
+																												</span>
+																								</h6>
+																								<h6 class=""
+																									style="margin: 0; font-size: 14px; color: #888888">
+																									<%= text.orderDate
+																										%>: <span
+																											style="color:#000;">
+																											<%= orderDate
+																												%>
+																										</span>
+																								</h6>
+																								<h6 class=""
+																									style="margin: 0; font-size: 14px; color: #888888">
+																									<%= text.paymentStatus
+																										%>: <span
+																											style="color:#000;">
+																											<%= paymentType
+																												%>
+																										</span>
+																								</h6>
+																							</div>
+																							<br>
+																						</td>
+																					</tr>
+																				</tbody>
+																			</table>
+																			<div style="margin-bottom: 40.0px;">
+																				<table cellspacing="0"
+																					style="color: rgb(99,99,99);vertical-align: middle;width: 100.0%;">
+																					<thead>
+																						<tr>
+																							<th colspan="8"
+																								class="table-col-header">
+																								<%= text.product %>
+																							</th>
+																							<th class="table-col-header"
+																								style="text-align: center;">
+																								<%= text.qty %>
+																							</th>
+																							<th class="table-col-header"
+																								style="text-align: right;">
+																								<%= text.price %>
+																							</th>
+																						</tr>
+																					</thead>
+																					<tbody>
+																						<% for (var i=0; i <
+																							products.length; i++) { %>
+																							<tr>
+																								<td colspan="8"
+																									class="table-col">
+																									<%= products[i].productName
+																										%>
+																								</td>
+																								<td class="table-col"
+																									style="text-align: center;">
+																									<%= products[i].quantity
+																										%> / (<%=
+																											products[i].unit
+																											%>)
+																								</td>
+																								<td class="table-col"
+																									style="text-align: right;">
+																									<%= currency %>
+																										<%= (products[i].productTotal).toFixed(2)
+																											%>
+																								</td>
+																							</tr>
+																							<% } %>
+																					</tbody>
+																					<tfoot>
+																						<tr border="2">
+																							<th colspan="8"
+																								class="table-col-header">
+																								<%= text.subTotal %>
+																							</th>
+																							<td class="table-col"></td>
+																							<td class="table-col"
+																								style="text-align: right;">
+																								<%= currency %>
+																									<%= subTotal %>
+																							</td>
+																						</tr>
+																						<tr>
+																							<th colspan="8"
+																								class="table-col-header">
+																								<%= text.tax %>
+																							</th>
+																							<td class="table-col"></td>
+																							<td class="table-col"
+																								style="text-align: right;">
+																								<%= currency %>
+																									<%= tax %>
+																							</td>
+																						</tr>
+																						<tr>
+																							<th colspan="8"
+																								class="table-col-header">
+																								<%= text.deliveryCharge
+																									%>
+																							</th>
+																							<td class="table-col"></td>
+																							<td class="table-col"
+																								style="text-align: right;">
+																								<%= currency %>
+																									<%= deliveryCharges
+																										%>
+																							</td>
+																						</tr>
+																						<tr>
+																							<th colspan="8"
+																								class="table-col-header">
+																								<%= text.couponDiscount
+																									%>
+																							</th>
+																							<td class="table-col"></td>
+																							<td class="table-col"
+																								style="text-align: right;">
+																								<%= currency %>
+																									<%= couponDiscount
+																										%>
+																							</td>
+																						</tr>
+																						<% if (isWalletUsed) { %>
+																							<tr>
+																								<th colspan="8"
+																									class="table-col-header">
+																									<%= text.wallet %>
+																								</th>
+																								<td class="table-col">
+																								</td>
+																								<td class="table-col"
+																									style="text-align: right;">
+																									<%= currency %>
+																										<%= walletAmount
+																											%>
+																								</td>
+																							</tr>
+																							<% } %>
+																								<tr
+																									style="background: #eee;">
+																									<th colspan="8"
+																										class="table-col-header">
+																										<%= text.grandTotal
+																											%>
+																									</th>
+																									<td
+																										class="table-col">
+																									</td>
+																									<td class="table-col"
+																										style="font-weight: 700; text-align: right;">
+																										<%= currency %>
+																											<%= grandTotal
+																												%>
+																									</td>
+																								</tr>
+																								<% if (isOrderModified)
+																									{ %>
+																									<tr>
+																										<th colspan="8"
+																											class="table-col-header">
+																											<%= text.orderModified
+																												%>
+																										</th>
+																										<td
+																											class="table-col">
+																										</td>
+																										<td class="table-col"
+																											style="text-align: right;">
+																											<%= amountRefundedOrderModified
+																												%>
+																										</td>
+																									</tr>
+																									<% } %>
+																					</tfoot>
+																				</table>
+																			</div>
+																			<p style="margin: 0 0 16.0px;">
+																				<%= text.thankforusing %><a
+																						href="<%= webUrl %>"
+																						target="_blank">
+																						<%= webName %>
+																					</a>!
+																			</p>
+																		</div>
+																	</td>
+																</tr>
+															</tbody>
+														</table>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</body>
+
+</html>
